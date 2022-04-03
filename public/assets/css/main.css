@@ -1,0 +1,313 @@
+
+/* general */
+
+circle {fill: #5f6368;}
+body {background-color: #e6e6e6;}
+nav {padding-left: 10px;}
+pre{border-radius:6px;}
+
+/* general  //  */
+
+
+.maina4div {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    margin-top: 2%;
+    -webkit-box-shadow: 1px 1px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 10px -3px rgba(0,0,0,0.75);
+}
+.content-maindiv{padding-bottom: 15%;}
+
+.homemaintitle {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 7%;
+}
+.servicetitle {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 4%;
+}
+.service-text p, .service-text li{
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+    word-spacing: 1.5px;
+}
+.sidebar-cat a{
+    color: #404040;
+    font: 15px arial, sans-serif;
+    text-decoration: none;
+}
+
+.sidebar-cat a:hover{color: #007bff;}
+
+.sidebar-cat h3{
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-link{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/* service card */
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    min-height: 100px;
+}
+.card{
+    border: 1px solid #cccccc;
+    height: 270px;
+}
+.gallery-block a {text-decoration: none;}
+
+.homecardimageframe {
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.gallery-block img {max-height: 170px;}
+.gallery-block {padding-bottom: 60px;}
+.gallery-block .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gallery-block .heading h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.gallery-block.cards-gallery h6 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.gallery-block.cards-gallery .card {transition: 0.4s ease;}
+.gallery-block.cards-gallery .card-body {text-align: center;}
+.gallery-block.cards-gallery .card-body p {font-size: 15px;}
+.gallery-block.cards-gallery a {color: #212529;}
+.gallery-block.cards-gallery a:hover {text-decoration: none;}
+.gallery-block.cards-gallery .card {
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+    .gallery-block .transform-on-hover:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+
+   /* language link */
+                            
+.langbtn {
+  background-color: #ff8080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-top: 1px; 
+  padding-bottom: 3px; 
+  margin-top: 8px;
+}
+
+.langbtn:focus {outline:none;}
+.langdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.available-lang {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 15px;
+  font-size: 18px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+}
+
+.available-lang a {
+  color: black;
+  padding: 4px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.langdropdown a:hover {background-color: #ddd;}
+
+
+/* language link // */
+
+
+/* user profile dropdown */
+.user-dropbtn {
+    color: white;
+    width:40px; height:40px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-dropbtn:hover, .user-dropbtn:focus {background-color: #e6e6e6;}
+.userDropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 300px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:10px;
+    padding-top: 10px;
+}
+
+.userDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.userDropdown a:hover {background-color: #f2f2f2;}
+
+/* user profile dropdown // */
+
+
+/* blog */
+
+.postcat-div {
+    border: 1px solid #d9d9d9;
+}
+
+.postcat-div a{
+    text-decoration: none;
+}
+
+.postcat-div:hover {
+    border: 1px solid #999;
+}
+
+.postcat-link{
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.postcat-link:hover {
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.11);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.11);
+}
+
+.postcat-div h3 {
+    font-size: 22px;
+    color: #555;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    min-height: 70px;
+}
+
+.postcat-div label, .postcat-div span {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* blog  ///  */
+
+
+
+/* lesson title  */
+
+.subject-lessons a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0 15px;
+    background: #f3f6f9;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #555;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-family: Poppins, sans-serif;
+}
+
+.subject-lessons a:hover {
+    background-color: #dde6ee;
+}
+
+.subject-lessons li {
+    list-style-type: none;
+}
+
+.subject-lessons p {
+    font-size: 17px;
+    margin-top: 2%;
+    color: #555;
+    font-family: Poppins, sans-serif;
+    text-align: justify;
+}
+
+.subject-head {
+    background-color: #e6ffe6;
+}
+/* lesson title  ///  */
+
+
+/* lesson and post*/
+.blogtextdiv p,.blogtextdiv span{
+    margin: 0px 0px 1.5em; 
+    color: #555; 
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    word-spacing: 1.5px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.blogtitle {
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.language-markup span,.language-css span{
+    font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+    font-size: 16px;
+    line-height: 3px;
+}
+
+/* lesson and post ///  */
+
+
+
+
+
+
