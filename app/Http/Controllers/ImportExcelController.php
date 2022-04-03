@@ -17,7 +17,7 @@ class ImportExcelController extends Controller
             'import_file' => 'required|mimes:xls,xlsx',
         ]);
         $path = $request->file('import_file')->getRealPath();
-     
+        $data = Excel::load($path)->get();
 
 
         return "";
